@@ -1,9 +1,8 @@
 # Distributed Photo Sharing Platform
 A distributed Photo Sharing Application implemented using QT in C++ 🖼 🔗 (2017).
 
-The program is a combination of a client-server and peer-to-peer model where a centralized server caters to all users who are clients to collect and send a list of active users, while each user acts as both a server and client to other users.
-This is a fully custom object oriented implementation from the front-end implemented using QT, down to the sockets themselves.
-Steganography is used to embed the number of views that the sender allocates when sending the image, this is read by the receiver side and when that number of views is finished, a default image is shown instead.
+The program is a combination of a `client-server` and `peer-to-peer` model where a centralized server caters to all users who are clients to collect and send a list of active users, while each user acts as both a server and client to other users.
+This is a fully custom object oriented implementation from the front-end implemented using `QT`, down to the sockets themselves. `Steganography` is used to embed the number of views that the sender allocates when sending the image, this is read by the receiver side and when that number of views is finished, a default image is shown instead.
 
 ### Features:
 * Select a photo to send another user from a specified folder and specify the amount of views allowed.
