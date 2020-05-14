@@ -1,4 +1,4 @@
-# PhotoSharing
+# Distributed Photo Sharing Platform
 A distributed Photo Sharing Application implemented using QT in C++ 🖼 🔗 (2017)
 
 The program is a combination of a client-server and peer-to-peer model where a centralized server caters to all users who are clients to collect and send a list of active users, while each user acts as both a server and client to other users.
